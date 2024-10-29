@@ -1,16 +1,15 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Home.css';
+
 
 function Home() {
   return (
-    <div className="home">
-        <nav className="navbar">
-            <NavLink to="/" end className="nav-link">Home</NavLink>
-            <NavLink to="/Learn" className="nav-link">Learn</NavLink>
-            <NavLink to="/VoterHub" className="nav-link">VoterHub</NavLink>
-            <NavLink to="/Discussion" className="nav-link">Discussion Forum</NavLink>
-        </nav>
+    <div className="container">
+        <div className='card mt-4 '>
+            <div className='card-body'>
+
+            </div>
+        </div>
+        
         <header className="main-header">
             <h1>Welcome to Our Civic Engagement Platform</h1>
             <p>Empowering underrepresented Massachusetts communities to learn about government and civic engagement.</p>

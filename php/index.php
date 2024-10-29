@@ -27,7 +27,7 @@
                 <div class="politician-wrapper">
                     
                     <?php 
-                        $products = getAllPoliticians();
+                        $politicians = getAllPoliticians();
                         foreach ($politicians as $politician) {
                             ?>
                             <div class="politician">

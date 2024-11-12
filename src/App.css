@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -26,6 +27,23 @@
 
 .App-link {
   color: #61dafb;
+}
+footer {
+  position: relative;       /* Fixes the footer to the viewport */
+  
+  width: 100%;           /* Full width of the viewport */
+  background-color: #c21807;
+  color: white;
+  text-align: center;
+  min-height: auto;
+  box-sizing: border-box; /* Ensures padding doesn’t increase width */
+  z-index: 10;           /* Keeps footer above other content if needed */
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: #bdc3c7;
+  /*margin: 0 10px;*/
 }
 
 @keyframes App-logo-spin {

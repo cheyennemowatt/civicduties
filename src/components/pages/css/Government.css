@@ -1,0 +1,92 @@
+.card-body{
+    background-color:#f0f8ff;
+}
+.government-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .gov-header {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .gov-header h1 {
+    color: #0066cc;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .gov-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .gov-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .gov-section h2 {
+    color: black; 
+    
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .branch-section {
+    background-color: #fdfdfd;
+    border-left: 5px solid #ff0000;
+  }
+  
+  .gov-section p,
+  .gov-section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .gov-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .gov-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .gov-section li strong {
+    color: #0066cc;
+  }
+  
+  .conclusion {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+.infographic, .video {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .infographic img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  .video iframe {
+    border: none;
+    border-radius: 8px;
+  }
+  

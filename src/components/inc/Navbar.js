@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -8,8 +9,8 @@ function Navbar() {
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            {/*
-            <a class="navbar-brand" href="#">Civic Duties</a> */}
+            
+            <a class="navbar-brand" href="/">Civic Duties</a> 
             
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
@@ -21,20 +22,20 @@ function Navbar() {
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                             
-                            <Link to = '/Home' class="nav-link" >Home</Link>
+                            <Link to = '/' class="nav-link" >Home</Link>
                         </li>
                         <li class="nav-item">
                             
-                            <Link to = '/Learn' class="nav-link" >Learn</Link>
+                            <Link to = 'Learn' class="nav-link" >Learn</Link>
                         </li>
                         
                         <li class="nav-item">
                             
-                            <Link to = '/VoterHub'class="nav-link" > Voter Hub</Link>
+                            <Link to = 'VoterHub'class="nav-link" > Voter Hub</Link>
                         </li>
                         <li class="nav-item">
                             
-                            <Link to = '/Discussion Forum' class="nav-link" >Discussion Forum</Link>
+                            <Link to = 'Discussion' class="nav-link" >Discussion Forum</Link>
                         </li>
                     </ul>
                     {/*

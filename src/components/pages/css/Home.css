@@ -1,0 +1,217 @@
+.container1{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+  height: 100%;
+  margin: 50px;
+  padding: 0;
+  overflow-x: hidden;
+  
+}
+/* Banner Styles with Background Image */
+.banner {
+  width: 100%;
+  background-image: url('https://cdss.berkeley.edu/sites/default/files/styles/max_2600x2600/public/2024-10/AdobeStock_410610399%20%281%29.jpeg?itok=L91D94VV');
+  background-size: cover; /* Ensures the image covers the entire banner */
+  background-position: center; /* Center the image */
+  color: white;
+  text-align: center;
+  padding: 300px 0; /* Adjust padding to fit the image */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.banner h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+  
+  color: #ff0000;
+  text-shadow: 1px 0.15px white , 3px 0.25px black;
+  font-family:sans-serif;
+
+}
+
+.banner-btn {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.banner-btn:hover {
+  background-color: #c21807; /* Slightly darker color on hover */
+}
+  
+  /* Educational content */
+  .education {
+    padding: 40px 20px;
+    text-align: center;
+    color:black;
+  }
+
+  .education h3{
+    padding-bottom: 30px;
+  }
+  
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .education-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card-link {
+    display: block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Language section */
+  .language-section {
+    text-align: center;
+    padding:5px;
+
+  }
+  
+  .language-section select {
+    font-size: 1em;
+    padding-top: 0px;
+  }
+  
+  /* Voter info */
+  .voter-info {
+    text-align: center;
+  }
+  
+  .voter-info button {
+
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  }
+  .voter-info button:hover{
+    background-color: #c21807;
+  }
+  
+  /* Calendar */
+  .calendar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .calendar li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ff0000;
+  }
+
+  
+  .voter-info img{
+    
+    width:auto;
+    height:200px;
+  box-sizing: border-box;
+  position: relative;
+  background-size: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  
+  border: #c21807;
+  
+  }
+  
+  /* Info sections container for side-by-side layout */
+  .info-sections {
+    display: flex;
+    gap: 50px; /* Space between sections */
+    padding: 20px;
+    align-items: flex-start;
+  }
+  
+  .civic-calendar, .voter-info {
+    flex: 1; /* Each section takes up equal width */
+    
+  }
+
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .info-sections {
+      flex-direction: column; /* Stacks the sections vertically */
+    }
+  }
+
+  
+  /* Discussion section */
+  .discussion {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .discussion button {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .discussion button:hover{
+    background-color: #c21807; /* Slightly darker color on hover */
+  }
+  
+  /* Footer */
+  footer {
+    position: relative;       /* Fixes the footer to the viewport */
+    
+    width: 100%;           /* Full width of the viewport */
+    background-color: #c21807;
+    color: white;
+    text-align: center;
+    min-height: auto;
+    box-sizing: border-box; /* Ensures padding doesn’t increase width */
+    z-index: 10;           /* Keeps footer above other content if needed */
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a {
+    color: #bdc3c7;
+    /*margin: 0 10px;*/
+  }
+  
+
+  

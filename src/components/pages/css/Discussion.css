@@ -1,0 +1,130 @@
+/* src/components/DiscussionForum.css */
+
+
+.discussion-forum {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .discussion-forum h1 {
+    text-align: center;
+    color: #003366;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Styles */
+  .forum-section {
+    margin-bottom: 30px;
+  }
+  
+  .forum-section h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Category Select */
+  .category-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .post-category-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-category-select label {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .post-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #003366;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-form button:hover {
+    background-color: #00509e;
+  }
+  
+  /* Posts Section */
+  .posts-section {
+    margin-top: 20px;
+  }
+  
+  .posts-section h2 {
+    color: #003366;
+    font-size: 1.5rem;
+  }
+  
+  .post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .post strong {
+    color: #003366;
+  }
+  
+  .timestamp {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .no-posts {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+  }
+  
+  
